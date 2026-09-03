@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- ==================== تحسين محركات البحث (SEO) ==================== -->
+  <title>LAVÉRA | كتالوج ومتجر إيكواي الرسمي - حلول التنظيف البيئية والمايكروفايبر</title>
+  <meta name="description" content="تسوق منتجات إيكواي (Ecoway) الأصلية في مصر من متجر LAVÉRA الرسمي: فوط المايكروفايبر بأيونات الفضة، صابون Coco Lab الطبيعي، منظفات Eco Touch، وعطور فاخرة مع طلب فوري عبر واتساب.">
+  <meta name="keywords" content="إيكواي, متجر إيكواي, كتالوج إيكواي, LAVERA, Ecoway, لافيرا, فوط مايكروفايبر, صابون كوكو لاب, منظفات إيكوتاتش, تنظيف بالماء فقط, منتجات بيئية">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="LAVÉRA">
+
+  <!-- وسوم المعاينة لشبكات التواصل وواتساب (Open Graph) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_AR">
+  <meta property="og:title" content="LAVÉRA | كتالوج ومتجر إيكواي الرسمي">
+  <meta property="og:description" content="فوط مايكروفايبر يابانية، صابون طبيعي، وعطور فاخرة بدون كيماويات ضارة. تسوق وادفع عند الاستلام عبر واتساب.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1200&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- بيانات هيكلية لروبوتات جوجل (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "LAVÉRA | متجر إيكواي الرسمي",
+    "description": "كتالوج ومنتجات إيكواي الأصلية وحلول التنظيف المايكروفايبر الطبيعية.",
+    "telephone": "+201097753110",
+    "priceRange": "$$"
+  }
+  </script>
+  <!-- =================================================================== -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              dark: '#0f291e',
+              emerald: '#1b4332',
+              leaf: '#2d6a4f',
+              gold: '#c5a880',
+              goldHover: '#b09165',
+              sand: '#f4f1ea'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body { font-family: 'Cairo', sans-serif; }
+    .glass-nav { backdrop-filter: blur(12px); background-color: rgba(15, 41, 30, 0.95); }
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #fef3c7 0%, #c5a880 50%, #fef3c7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-[#f8faf8] text-slate-800 min-h-screen flex flex-col justify-between selection:bg-[#c5a880] selection:text-[#0f291e]">
+
+  <div class="bg-gradient-to-r from-[#1b4332] via-[#2d6a4f] to-[#1b4332] text-amber-200 text-xs font-bold text-center py-2 px-3 tracking-wide shadow-sm border-b border-amber-500/20">
+    🔒 الكتالوج والمتجر الرسمي المعتمد &bull; منتجات ECOWAY الأصلية 100% &bull; جميع الحقوق محفوظة لعلامة LAVÉRA
+  </div>
+
+  <header class="glass-nav text-white sticky top-0 z-40 shadow-lg border-b border-[#c5a880]/30">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-3 space-x-reverse">
+        <div class="w-11 h-11 border-2 border-[#c5a880] bg-gradient-to-br from-[#1b4332] to-[#0f291e] text-[#c5a880] rounded-2xl flex items-center justify-center font-black text-lg tracking-wider shadow-inner">
+          LV
+        </div>
+        <div>
+          <span class="text-xl font-black gold-gradient-text tracking-widest block leading-tight">LAVÉRA</span>
+          <span class="text-[10px] text-emerald-200/70 tracking-wider font-semibold">ECO-LUXURY LIVING &bull; ECOWAY</span>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2 sm:gap-3">
+        <button onclick="openAdminModal()" class="text-xs bg-[#1b4332]/80 hover:bg-[#1b4332] text-amber-200 border border-[#c5a880]/40 px-3 py-2 rounded-xl transition flex items-center gap-1.5 shadow-sm">
+          <i class="fa-solid fa-user-shield text-[#c5a880]"></i>
+          <span class="font-bold hidden sm:inline">لوحة الإدارة</span>
+        </button>
+
+        <button onclick="toggleCartDrawer()" class="relative bg-gradient-to-r from-[#c5a880] to-[#b09165] hover:opacity-95 text-[#0f291e] px-4 py-2 rounded-xl font-black flex items-center gap-2 shadow-md transition transform active:scale-95">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="hidden sm:inline">السلة</span>
+          <span id="cart-counter" class="bg-[#0f291e] text-[#c5a880] text-xs px-2 py-0.5 rounded-full font-extrabold">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="bg-gradient-to-b from-[#0f291e] via-[#1b4332] to-[#122e23] text-white py-12 px-4 text-center border-b border-[#c5a880]/20 shadow-inner">
+    <div class="max-w-3xl mx-auto">
+      <span class="bg-[#c5a880]/15 text-[#c5a880] border border-[#c5a880]/40 text-xs px-4 py-1.5 rounded-full font-bold uppercase tracking-wider mb-4 inline-block shadow-sm">
+        🌿 كتالوج ECOWAY الرسمي المعتمد
+      </span>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black mb-4 text-white leading-tight">فوط، منظفات، صابون طبيعي وعطور فاخرة</h1>
+      <p class="text-emerald-100/90 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
+        تكنولوجيا المايكروفايبر والنانو فايبر اليابانية بأيونات الفضة، صابون Coco Lab الطبيعي 100%، وعطور فاخرة تدوم طويلاً.
+      </p>
+    </div>
+  </section>
+
+  <div class="container mx-auto px-4 pt-8">
+    <div class="flex flex-wrap gap-2 justify-center items-center" id="cat-buttons">
+      <button onclick="filterCategory('ALL', this)" class="cat-btn bg-[#1b4332] text-amber-200 border border-[#c5a880]/40 px-5 py-2 rounded-full text-xs font-bold transition shadow-sm">الكل</button>
+      <button onclick="filterCategory('CLOTHS', this)" class="cat-btn bg-white text-slate-700 border border-emerald-900/10 px-4 py-2 rounded-full text-xs font-bold transition hover:bg-emerald-50">فوط ومايكروفايبر</button>
+      <button onclick="filterCategory('TOOLS', this)" class="cat-btn bg-white text-slate-700 border border-emerald-900/10 px-4 py-2 rounded-full text-xs font-bold transition hover:bg-emerald-50">أدوات وأجهزة تنظيف</button>
+      <button onclick="filterCategory('CHEM', this)" class="cat-btn bg-white text-slate-700 border border-emerald-900/10 px-4 py-2 rounded-full text-xs font-bold transition hover:bg-emerald-50">منظفات Eco Touch</button>
+      <button onclick="filterCategory('BEAUTY', this)" class="cat-btn bg-white text-slate-700 border border-emerald-900/10 px-4 py-2 rounded-full text-xs font-bold transition hover:bg-emerald-50">العناية الشخصية</button>
+      <button onclick="filterCategory('SOAP', this)" class="cat-btn bg-white text-slate-700 border border-emerald-900/10 px-4 py-2 rounded-full text-xs font-bold transition hover:bg-emerald-50">صابون Coco Lab الطبيعي</button>
+      <button onclick="filterCategory('PERFUME', this)" class="cat-btn bg-white text-slate-700 border border-emerald-900/10 px-4 py-2 rounded-full text-xs font-bold transition hover:bg-emerald-50">عطور Ecoway</button>
+    </div>
+  </div>
+
+  <main class="container mx-auto px-4 py-8 flex-grow">
+    <div class="flex justify-between items-center mb-6 pb-2 border-b border-slate-200">
+      <h2 class="text-2xl font-black text-[#1b4332] flex items-center gap-2">
+        <i class="fa-solid fa-boxes-stacked text-[#c5a880]"></i>
+        <span>المنتجات المتاحة</span>
+      </h2>
+      <span id="products-count" class="text-xs bg-emerald-100 text-[#1b4332] border border-emerald-200 px-3 py-1.5 rounded-lg font-black">0 منتج</span>
+    </div>
+
+    <div id="products-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </main>
+
+  <a href="https://wa.me/201097753110" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 bg-[#25d366] hover:bg-[#20ba59] text-white p-4 rounded-full shadow-2xl z-30 flex items-center gap-2 transition transform hover:scale-105 border-2 border-white">
+    <i class="fa-brands fa-whatsapp text-2xl"></i>
+    <span class="hidden md:inline font-bold text-sm">استفسار وطلب فوري</span>
+  </a>
+
+  <footer class="bg-[#0f291e] text-slate-300 pt-10 pb-6 border-t-2 border-[#c5a880]/50">
+    <div class="container mx-auto px-4 text-center space-y-4">
+      <div class="flex flex-col items-center justify-center space-y-1">
+        <span class="text-2xl font-black gold-gradient-text tracking-widest">LAVÉRA</span>
+        <p class="text-xs text-[#c5a880]/80 tracking-widest uppercase font-semibold">ECOWAY OFFICIAL CATALOG STORE</p>
+      </div>
+
+      <div class="inline-flex items-center gap-3 bg-[#1b4332] border border-[#c5a880]/40 px-6 py-2 rounded-full text-amber-200 font-bold text-sm sm:text-base dir-ltr shadow">
+        <i class="fa-brands fa-whatsapp text-emerald-400 text-xl"></i>
+        <a href="https://wa.me/201097753110" target="_blank" rel="noopener noreferrer" class="hover:underline tracking-wider">01097753110</a>
+      </div>
+
+      <div class="text-xs text-emerald-200/50 border-t border-emerald-900/50 pt-4">
+        <p>جميع الحقوق محفوظة &copy; متجر وكتالوج LAVÉRA الرسمي</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="cart-drawer" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden">
+    <div class="fixed inset-y-0 left-0 max-w-md w-full bg-white shadow-2xl flex flex-col justify-between p-6">
+      <div class="flex justify-between items-center pb-4 border-b border-slate-100">
+        <h3 class="text-xl font-black text-[#1b4332] flex items-center gap-2">
+          <i class="fa-solid fa-bag-shopping text-[#c5a880]"></i>
+          <span>سلة المشتريات</span>
+        </h3>
+        <button onclick="toggleCartDrawer()" class="text-slate-400 hover:text-rose-500 text-2xl font-bold transition">&times;</button>
+      </div>
+
+      <div id="cart-items-list" class="flex-grow overflow-y-auto py-4 space-y-3"></div>
+
+      <div class="border-t border-slate-100 pt-4 space-y-3 bg-[#f8faf8] p-4 rounded-2xl border border-emerald-900/10">
+        <div class="flex justify-between items-center text-lg font-black text-slate-800">
+          <span>المبلغ الإجمالي:</span>
+          <span id="cart-total-price" class="text-[#1b4332] text-2xl font-black">0 ج.م</span>
+        </div>
+
+        <div class="space-y-2 pt-2">
+          <input type="text" id="order-name" placeholder="اسم المستلم ثلاثي" class="w-full text-sm p-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-[#1b4332]">
+          <input type="tel" id="order-phone" placeholder="رقم الهاتف للتواصل" class="w-full text-sm p-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-[#1b4332]">
+          <input type="text" id="order-address" placeholder="العنوان بالتفصيل (المحافظة / المدينة / الشارع)" class="w-full text-sm p-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-[#1b4332]">
+
+          <button onclick="completeOrderWhatsApp()" class="w-full bg-[#1b4332] hover:bg-[#2d6a4f] text-white font-bold py-3.5 rounded-xl shadow-lg transition flex items-center justify-center gap-2 text-base">
+            <i class="fa-brands fa-whatsapp text-xl text-emerald-400"></i>
+            <span>تأكيد الطلب وإرسال الفاتورة</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="admin-modal" class="fixed inset-0 bg-black/75 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-2xl w-full p-6 max-h-[90vh] overflow-y-auto shadow-2xl border border-[#c5a880]/40">
+      <div class="flex justify-between items-center border-b pb-3 mb-4">
+        <h3 class="text-lg font-black text-[#1b4332] flex items-center gap-2">
+          <i class="fa-solid fa-user-shield text-[#c5a880]"></i>
+          <span>لوحة تحكم كتالوج LAVÉRA</span>
+        </h3>
+        <button onclick="closeAdminModal()" class="text-slate-400 hover:text-slate-700 text-xl font-bold">&times;</button>
+      </div>
+
+      <div id="admin-login-view" class="space-y-4">
+        <p class="text-xs text-slate-500">منطقة المشرف: أدخل كلمة المرور (الافتراضية: <strong>1234</strong>):</p>
+        <input type="password" id="admin-pass-input" placeholder="كلمة المرور" class="w-full border border-slate-300 p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1b4332] text-center font-bold">
+        <button onclick="authenticateAdmin()" class="w-full bg-[#1b4332] hover:bg-[#0f291e] text-amber-200 font-bold py-3 rounded-xl transition shadow">
+          دخول لوحة التحكم
+        </button>
+      </div>
+
+      <div id="admin-panel-view" class="hidden space-y-6">
+        <div class="flex justify-between items-center bg-emerald-50 border border-emerald-200 p-3 rounded-xl text-xs text-[#1b4332] font-bold">
+          <span>تم تسجيل الدخول. يمكنك الآن تعديل المنتجات أو رفع صور جديدة من جهازك مباشرة.</span>
+          <button onclick="logoutAdmin()" class="text-rose-600 hover:underline">تسجيل الخروج</button>
+        </div>
+
+        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+          <h4 id="admin-form-title" class="font-black text-slate-800 mb-3 text-sm">➕ إضافة منتج أو باقة جديدة:</h4>
+          <input type="hidden" id="edit-prod-id" value="">
+
+          <div class="space-y-3">
+            <div>
+              <label class="block text-xs font-bold text-slate-600 mb-1">اسم المنتج:</label>
+              <input type="text" id="adm-title" placeholder="مثال: فوطة الزجاج فائقة النعومة" class="w-full border p-2.5 rounded-xl text-sm focus:outline-none focus:ring-1 focus:ring-[#1b4332] bg-white">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-600 mb-1">اختيار صورة من جهازك:</label>
+              <input type="file" id="adm-img-file" accept="image/*" class="w-full border p-2 rounded-xl text-xs bg-white file:mr-2 file:py-1.5 file:px-3.5 file:rounded-lg file:border-0 file:text-xs file:font-semibold file:bg-emerald-50 file:text-[#1b4332] hover:file:bg-emerald-100">
+              <span id="img-preview-info" class="text-[11px] text-emerald-700 block mt-1 hidden">✓ تم تحميل الصورة وهي جاهزة للحفظ</span>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2">
+              <div>
+                <label class="block text-xs font-bold text-slate-600 mb-1">العنوان الفرعي:</label>
+                <input type="text" id="adm-sub" placeholder="تكنولوجيا المايكروفايبر" class="w-full border p-2.5 rounded-xl text-sm focus:outline-none focus:ring-1 focus:ring-[#1b4332] bg-white">
+              </div>
+              <div>
+                <label class="block text-xs font-bold text-slate-600 mb-1">القسم:</label>
+                <select id="adm-cat" class="w-full border p-2.5 rounded-xl text-sm bg-white focus:outline-none focus:ring-1 focus:ring-[#1b4332]">
+                  <option value="CLOTHS">فوط ومايكروفايبر</option>
+                  <option value="TOOLS">أدوات وأجهزة تنظيف</option>
+                  <option value="CHEM">منظفات Eco Touch</option>
+                  <option value="BEAUTY">العناية الشخصية</option>
+                  <option value="SOAP">صابون Coco Lab الطبيعي</option>
+                  <option value="PERFUME">عطور Ecoway</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2">
+              <div>
+                <label class="block text-xs font-bold text-slate-600 mb-1">السعر (ج.م):</label>
+                <input type="number" id="adm-price" placeholder="350" class="w-full border p-2.5 rounded-xl text-sm focus:outline-none focus:ring-1 focus:ring-[#1b4332] bg-white">
+              </div>
+              <div>
+                <label class="block text-xs font-bold text-slate-600 mb-1">المقاس / الحجم:</label>
+                <input type="text" id="adm-size" placeholder="40 × 40 سم" class="w-full border p-2.5 rounded-xl text-sm focus:outline-none focus:ring-1 focus:ring-[#1b4332] bg-white">
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-600 mb-1">شارة مميزة (اختياري):</label>
+              <input type="text" id="adm-badge" placeholder="مثال: الأكثر طلباً / جديد" class="w-full border p-2.5 rounded-xl text-sm focus:outline-none focus:ring-1 focus:ring-[#1b4332] bg-white">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-600 mb-1">المميزات (سطر لكل ميزة):</label>
+              <textarea id="adm-items" placeholder="تنظيف بالماء فقط بدون ملمع&#10;لا تترك وبر أو آثار&#10;تقضي على البكتيريا" class="w-full border p-2.5 rounded-xl text-sm h-20 focus:outline-none focus:ring-1 focus:ring-[#1b4332] bg-white"></textarea>
+            </div>
+
+            <div class="flex gap-2 pt-2">
+              <button onclick="saveOrUpdateProduct()" id="admin-submit-btn" class="flex-grow bg-[#1b4332] hover:bg-[#2d6a4f] text-white font-bold py-2.5 rounded-xl transition shadow">
+                حفظ المنتج في الكتالوج
+              </button>
+              <button onclick="cancelEditMode()" id="admin-cancel-btn" class="hidden bg-slate-200 hover:bg-slate-300 text-slate-700 font-bold px-4 py-2.5 rounded-xl transition text-sm">
+                إلغاء التعديل
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="border-t pt-4">
+          <h5 class="text-xs font-bold text-slate-700 mb-2">🔐 تغيير كلمة مرور الإدارة:</h5>
+          <div class="flex gap-2">
+            <input type="password" id="new-admin-pass" placeholder="كلمة سر جديدة" class="border p-2 rounded-xl text-xs flex-grow">
+            <button onclick="changeAdminPassword()" class="bg-[#1b4332] hover:bg-[#0f291e] text-amber-200 text-xs px-4 py-2 rounded-xl font-bold">تحديث كلمة السر</button>
+          </div>
+        </div>
+
+        <div class="border-t pt-3 flex justify-between items-center text-xs">
+          <span class="text-slate-400">البيانات محفوظة على متصفحك تلقائياً</span>
+          <button onclick="resetToDefaultData()" class="text-rose-500 hover:underline">
+            🔄 استعادة الكتالوج الافتراضي
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const STORE_WHATSAPP = "201097753110";
+    const CAT_LABELS = {
+      CLOTHS: "فوط ومايكروفايبر",
+      TOOLS: "أدوات وأجهزة تنظيف",
+      CHEM: "منظفات ومساحيق Eco Touch",
+      BEAUTY: "العناية الشخصية",
+      SOAP: "صابون Coco Lab الطبيعي",
+      PERFUME: "عطور Ecoway"
+    };
+
+    const DEFAULT_PRODUCTS = [
+      {
+        id: "1",
+        title: "فوطة الزجاج والأسطح الملساء",
+        sub: "تكنولوجيا الألياف اليابانية الفائقة",
+        cat: "CLOTHS",
+        price: 350,
+        size: "40 × 40 سم",
+        badge: "الأكثر طلباً",
+        image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80",
+        items: ["تنظيف الزجاج والمرايا بالماء فقط بدون ملمع", "لا تترك أي وبر أو آثار إطلاقاً", "تقضي على 99% من البكتيريا"]
+      },
+      {
+        id: "2",
+        title: "صابون Coco Lab الطبيعي 100%",
+        sub: "بزيت جوز الهند والزيوت العلاجية",
+        cat: "SOAP",
+        price: 180,
+        size: "120 جم",
+        badge: "طبيعي 100%",
+        image: "https://images.unsplash.com/photo-1607006311820-d15873f96f9b?auto=format&fit=crop&w=600&q=80",
+        items: ["مصنوع يدوياً من أنقى الزيوت الطبيعية", "ترطيب وتغذية عميقة للبشرة الحساسة", "خالٍ تماماً من المواد الكيميائية والعطور الصناعية"]
+      },
+      {
+        id: "3",
+        title: "عطر Ecoway الفاخر",
+        sub: "ثبات عالي ونفحات طبيعية منعشة",
+        cat: "PERFUME",
+        price: 650,
+        size: "50 مل",
+        badge: "فاخر",
+        image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=600&q=80",
+        items: ["تركيبة غنية تدوم لأكثر من 24 ساعة", "مستخلص من أرقى الزيوت العطرية الأوروبية", "لمسة أنيقة وجذابة"]
+      }
+    ];
+
+    let products = JSON.parse(localStorage.getItem('lavera_products_data')) || DEFAULT_PRODUCTS;
+    let cart = JSON.parse(localStorage.getItem('lavera_cart_data')) || [];
+    let currentCategory = 'ALL';
+    let isAdmin = false;
+    let uploadedImageData = "";
+
+    // معالجة قراءة الصورة من الجهاز
+    document.getElementById('adm-img-file')?.addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(event) {
+          uploadedImageData = event.target.result;
+          document.getElementById('img-preview-info').classList.remove('hidden');
+        };
+        reader.readAsDataURL(file);
+      }
+    });
+
+    function renderProducts() {
+      const container = document.getElementById('products-container');
+      const filtered = currentCategory === 'ALL' 
+        ? products 
+        : products.filter(p => p.cat === currentCategory);
+
+      document.getElementById('products-count').innerText = `${filtered.length} منتج`;
+
+      if (filtered.length === 0) {
+        container.innerHTML = `<div class="col-span-full text-center py-12 text-slate-400 font-bold">لا توجد منتجات معروضة في هذا القسم حالياً.</div>`;
+        return;
+      }
+
+      container.innerHTML = filtered.map(p => {
+        const imgSrc = p.image || "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80";
+        return `
+          <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+            <div class="relative bg-slate-100 overflow-hidden">
+              <img src="${imgSrc}" alt="${p.title}" class="w-full h-60 object-cover group-hover:scale-105 transition duration-500">
+              ${p.badge ? `<span class="absolute top-3 right-3 bg-[#1b4332] text-amber-200 text-xs px-3 py-1 rounded-full font-bold shadow">${p.badge}</span>` : ''}
+              ${p.size ? `<span class="absolute bottom-3 left-3 bg-black/60 backdrop-blur-sm text-white text-[11px] px-2.5 py-0.5 rounded-lg font-semibold">${p.size}</span>` : ''}
+            </div>
+
+            <div class="p-5 flex flex-col flex-grow justify-between space-y-4">
+              <div>
+                <span class="text-[11px] font-bold text-[#c5a880] tracking-wider uppercase block mb-1">${CAT_LABELS[p.cat] || p.cat}</span>
+                <h3 class="font-black text-lg text-slate-900 leading-snug mb-1">${p.title}</h3>
+                <p class="text-xs text-slate-500 mb-3">${p.sub || ''}</p>
+                
+                ${p.items && p.items.length > 0 ? `
+                  <ul class="text-xs text-slate-600 space-y-1.5 border-t border-slate-100 pt-3">
+                    ${p.items.map(item => `<li class="flex items-start gap-1.5"><i class="fa-solid fa-check text-[#2d6a4f] mt-0.5"></i><span>${item}</span></li>`).join('')}
+                  </ul>
+                ` : ''}
+              </div>
+
+              <div>
+                <div class="flex justify-between items-baseline mb-4 pt-2 border-t border-slate-100">
+                  <span class="text-xs text-slate-400 font-semibold">السعر:</span>
+                  <span class="text-xl font-black text-[#1b4332]">${p.price} <span class="text-xs">ج.م</span></span>
+                </div>
+
+                <div class="flex gap-2">
+                  <button onclick="addToCart('${p.id}')" class="flex-grow bg-[#1b4332] hover:bg-[#2d6a4f] text-white font-bold py-2.5 px-4 rounded-xl transition flex items-center justify-center gap-2 text-sm shadow-sm active:scale-95">
+                    <i class="fa-solid fa-cart-plus"></i>
+                    <span>إضافة للسلة</span>
+                  </button>
+                  <button onclick="editProductPrompt('${p.id}')" class="admin-control-btn ${isAdmin ? '' : 'hidden'} bg-amber-50 hover:bg-amber-100 text-[#c5a880] border border-[#c5a880]/40 p-2.5 rounded-xl transition" title="تعديل">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </button>
+                  <button onclick="deleteProduct('${p.id}')" class="admin-control-btn ${isAdmin ? '' : 'hidden'} bg-rose-50 hover:bg-rose-100 text-rose-600 border border-rose-200 p-2.5 rounded-xl transition" title="حذف">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function filterCategory(cat, btnElement) {
+      currentCategory = cat;
+      document.querySelectorAll('.cat-btn').forEach(btn => {
+        btn.className = "cat-btn bg-white text-slate-700 border border-emerald-900/10 px-4 py-2 rounded-full text-xs font-bold transition hover:bg-emerald-50";
+      });
+      btnElement.className = "cat-btn bg-[#1b4332] text-amber-200 border border-[#c5a880]/40 px-5 py-2 rounded-full text-xs font-bold transition shadow-sm";
+      renderProducts();
+    }
+
+    function toggleCartDrawer() {
+      document.getElementById('cart-drawer').classList.toggle('hidden');
+      renderCart();
+    }
+
+    function addToCart(id) {
+      const prod = products.find(p => p.id === id);
+      if (!prod) return;
+
+      const existing = cart.find(item => item.id === id);
+      if (existing) {
+        existing.qty += 1;
+      } else {
+        cart.push({ id: prod.id, title: prod.title, price: prod.price, qty: 1 });
+      }
+
+      saveCart();
+      updateCartBadge();
+    }
+
+    function updateCartQty(id, delta) {
+      const item = cart.find(i => i.id === id);
+      if (!item) return;
+
+      item.qty += delta;
+      if (item.qty <= 0) {
+        cart = cart.filter(i => i.id !== id);
+      }
+
+      saveCart();
+      renderCart();
+      updateCartBadge();
+    }
+
+    function saveCart() {
+      localStorage.setItem('lavera_cart_data', JSON.stringify(cart));
+    }
+
+    function updateCartBadge() {
+      const count = cart.reduce((sum, item) => sum + item.qty, 0);
+      document.getElementById('cart-counter').innerText = count;
+    }
+
+    function renderCart() {
+      const container = document.getElementById('cart-items-list');
+      const totalEl = document.getElementById('cart-total-price');
+
+      if (cart.length === 0) {
+        container.innerHTML = `<div class="text-center py-12 text-slate-400 font-bold text-sm">سلة المشتريات فارغة حالياً</div>`;
+        totalEl.innerText = "0 ج.م";
+        return;
+      }
+
+      let total = 0;
+      container.innerHTML = cart.map(item => {
+        const itemTotal = item.price * item.qty;
+        total += itemTotal;
+        return `
+          <div class="flex items-center justify-between p-3 bg-slate-50 rounded-xl border border-slate-200/80">
+            <div class="flex-grow pr-2">
+              <h4 class="font-bold text-slate-800 text-sm leading-tight mb-1">${item.title}</h4>
+              <span class="text-xs text-slate-500">${item.price} ج.م &times; ${item.qty} = <strong>${itemTotal} ج.م</strong></span>
+            </div>
+            <div class="flex items-center gap-2">
+              <button onclick="updateCartQty('${item.id}', -1)" class="w-7 h-7 bg-white border border-slate-200 rounded-lg flex items-center justify-center text-slate-600 hover:bg-slate-100 font-bold">-</button>
+              <span class="text-sm font-bold w-4 text-center">${item.qty}</span>
+              <button onclick="updateCartQty('${item.id}', 1)" class="w-7 h-7 bg-white border border-slate-200 rounded-lg flex items-center justify-center text-slate-600 hover:bg-slate-100 font-bold">+</button>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      totalEl.innerText = `${total} ج.م`;
+    }
+
+    function completeOrderWhatsApp() {
+      if (cart.length === 0) {
+        alert("السلة فارغة!");
+        return;
+      }
+
+      const name = document.getElementById('order-name').value.trim();
+      const phone = document.getElementById('order-phone').value.trim();
+      const address = document.getElementById('order-address').value.trim();
+
+      if (!name || !phone || !address) {
+        alert("يرجى ملء جميع بيانات التوصيل (الاسم، الهاتف، والعنوان بالتفصيل).");
+        return;
+      }
+
+      let total = 0;
+      let itemsSummary = cart.map((i, idx) => {
+        const sub = i.price * i.qty;
+        total += sub;
+        return `${idx + 1}. ${i.title} (${i.qty} قطعة) = ${sub} ج.م`;
+      }).join('\n');
+
+      let message = `🛒 *طلب شراء جديد من متجر LAVÉRA*\n\n` +
+                    `👤 *الاسم:* ${name}\n` +
+                    `📞 *الهاتف:* ${phone}\n` +
+                    `📍 *العنوان:* ${address}\n\n` +
+                    `📦 *تفاصيل الطلب:*\n${itemsSummary}\n\n` +
+                    `💰 *المبلغ الإجمالي:* ${total} ج.م\n` +
+                    `يرجى تأكيد الطلب وتحديد موعد الاستلام.`;
+
+      const encodedMsg = encodeURIComponent(message);
+      window.open(`https://wa.me/${STORE_WHATSAPP}?text=${encodedMsg}`, '_blank');
+    }
+
+    /* دوال لوحة الإدارة */
+    function openAdminModal() {
+      document.getElementById('admin-modal').classList.remove('hidden');
+    }
+
+    function closeAdminModal() {
+      document.getElementById('admin-modal').classList.add('hidden');
+      cancelEditMode();
+    }
+
+    function authenticateAdmin() {
+      const pass = document.getElementById('admin-pass-input').value;
+      const savedPass = localStorage.getItem('lavera_admin_pass') || '1234';
+
+      if (pass === savedPass) {
+        isAdmin = true;
+        document.getElementById('admin-login-view').classList.add('hidden');
+        document.getElementById('admin-panel-view').classList.remove('hidden');
+        document.getElementById('admin-pass-input').value = '';
+        renderProducts();
+      } else {
+        alert("كلمة المرور غير صحيحة!");
+      }
+    }
+
+    function logoutAdmin() {
+      isAdmin = false;
+      document.getElementById('admin-login-view').classList.remove('hidden');
+      document.getElementById('admin-panel-view').classList.add('hidden');
+      renderProducts();
+      closeAdminModal();
+    }
+
+    function saveOrUpdateProduct() {
+      const editId = document.getElementById('edit-prod-id').value;
+      const title = document.getElementById('adm-title').value.trim();
+      const sub = document.getElementById('adm-sub').value.trim();
+      const cat = document.getElementById('adm-cat').value;
+      const price = parseFloat(document.getElementById('adm-price').value) || 0;
+      const size = document.getElementById('adm-size').value.trim();
+      const badge = document.getElementById('adm-badge').value.trim();
+      const itemsRaw = document.getElementById('adm-items').value.trim();
+      const items = itemsRaw ? itemsRaw.split('\n').filter(t => t.trim().length > 0) : [];
+
+      if (!title || price <= 0) {
+        alert("يرجى إدخال اسم المنتج وسعر صحيح.");
+        return;
+      }
+
+      if (editId) {
+        const p = products.find(prod => prod.id === editId);
+        if (p) {
+          p.title = title;
+          p.sub = sub;
+          p.cat = cat;
+          p.price = price;
+          p.size = size;
+          p.badge = badge;
+          p.items = items;
+          if (uploadedImageData) p.image = uploadedImageData;
+        }
+      } else {
+        const newProduct = {
+          id: Date.now().toString(),
+          title,
+          sub,
+          cat,
+          price,
+          size,
+          badge,
+          items,
+          image: uploadedImageData || "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80"
+        };
+        products.push(newProduct);
+      }
+
+      localStorage.setItem('lavera_products_data', JSON.stringify(products));
+      renderProducts();
+      cancelEditMode();
+      alert("تم حفظ بيانات المنتج والصورة بنجاح!");
+    }
+
+    function editProductPrompt(id) {
+      const p = products.find(prod => prod.id === id);
+      if (!p) return;
+
+      openAdminModal();
+      document.getElementById('edit-prod-id').value = p.id;
+      document.getElementById('adm-title').value = p.title || '';
+      document.getElementById('adm-sub').value = p.sub || '';
+      document.getElementById('adm-cat').value = p.cat || 'CLOTHS';
+      document.getElementById('adm-price').value = p.price || '';
+      document.getElementById('adm-size').value = p.size || '';
+      document.getElementById('adm-badge').value = p.badge || '';
+      document.getElementById('adm-items').value = (p.items || []).join('\n');
+      uploadedImageData = "";
+      document.getElementById('img-preview-info').classList.add('hidden');
+
+      document.getElementById('admin-form-title').innerText = "✏️ تعديل بيانات المنتج:";
+      document.getElementById('admin-cancel-btn').classList.remove('hidden');
+    }
+
+    function cancelEditMode() {
+      document.getElementById('edit-prod-id').value = '';
+      document.getElementById('adm-title').value = '';
+      document.getElementById('adm-sub').value = '';
+      document.getElementById('adm-price').value = '';
+      document.getElementById('adm-size').value = '';
+      document.getElementById('adm-badge').value = '';
+      document.getElementById('adm-items').value = '';
+      const fileInput = document.getElementById('adm-img-file');
+      if (fileInput) fileInput.value = '';
+      uploadedImageData = "";
+      document.getElementById('img-preview-info').classList.add('hidden');
+      document.getElementById('admin-form-title').innerText = "➕ إضافة منتج أو باقة جديدة:";
+      document.getElementById('admin-cancel-btn').classList.add('hidden');
+    }
+
+    function deleteProduct(id) {
+      if (confirm("هل أنت متأكد من حذف هذا المنتج نهائياً من الكتالوج؟")) {
+        products = products.filter(p => p.id !== id);
+        localStorage.setItem('lavera_products_data', JSON.stringify(products));
+        renderProducts();
+      }
+    }
+
+    function changeAdminPassword() {
+      const newPass = document.getElementById('new-admin-pass').value.trim();
+      if (newPass.length < 4) {
+        alert("كلمة المرور يجب ألا تقل عن 4 أحرف/أرقام.");
+        return;
+      }
+      localStorage.setItem('lavera_admin_pass', newPass);
+      document.getElementById('new-admin-pass').value = '';
+      alert("تم تحديث كلمة المرور بنجاح.");
+    }
+
+    function resetToDefaultData() {
+      if (confirm("سيتم حذف التعديلات واستعادة المنتجات الافتراضية الأصلية. متابعة؟")) {
+        localStorage.removeItem('lavera_products_data');
+        location.reload();
+      }
+    }
+
+    // التشغيل المبدئي
+    updateCartBadge();
+    renderProducts();
+  </script>
+</body>
+</html>
